@@ -7,15 +7,18 @@ body {
   color: #333;
 }
 header {
-  background-color: #26323e;
+  background-color: #26363e;
   color: white;
   padding: 0;
   text-align: center;
+  height: 300px;
+  overflow: hidden;
 }
 header img {
   width: 65%;
   height: auto;
   display: block;
+  object-fit: cover;
   margin: 0 auto;
 }
 main {
