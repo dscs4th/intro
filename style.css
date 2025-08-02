@@ -7,19 +7,22 @@ body {
   color: #333;
 }
 header {
+  height: 600px;
   background-color: #2b333e;
-  color: white;
-  padding: 0;
-  text-align: center;
-  height: 1500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-container {
+  width: 100%;
+  height: 100%;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-header img {
-  width: 80%;
-  height: 100%;
+.img-container img {
+  transform: scale(0.8);       /* 縮放為 80% */
   object-fit: cover;
   display: block;
 }
