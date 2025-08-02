@@ -15,7 +15,6 @@ header {
 header img {
   width: 100%;
   height: auto;
-  object-fit: cover;
 }
 main {
   padding: 20px;
