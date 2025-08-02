@@ -13,10 +13,11 @@ header {
   text-align: center;
 }
 header img {
-  width: 70%;
-  height: auto;
+  width: 70%;           /* 保持寬度 */
+  height: auto;         /* 自動調整高度 */
+  max-height: 120px;    /* 限制最大高度，讓上下變窄 */
   display: block;
-  margin: 0 auto;
+  margin: 10px auto;    /* 加點上下間距也會更清爽 */
 }
 main {
   padding: 20px;
