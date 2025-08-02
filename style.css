@@ -16,7 +16,7 @@ header {
 }
 header img {
   width: 65%;
-  height: auto;
+  height: 65%;
   display: block;
   object-fit: cover;
   margin: 0 auto;
