@@ -7,17 +7,16 @@ body {
   color: #333;
 }
 header {
-  background-color: #1F2833;
+  background-color: #26363e;
   color: white;
   padding: 0;
   text-align: center;
 }
 header img {
-  width: 70%;           /* 保持寬度 */
-  height: auto;         /* 自動調整高度 */
-  max-height: 120px;    /* 限制最大高度，讓上下變窄 */
+  width: 65%;
+  height: auto;
   display: block;
-  margin: 10px auto;    /* 加點上下間距也會更清爽 */
+  margin: 0 auto;
 }
 main {
   padding: 20px;
