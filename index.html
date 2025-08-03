@@ -6,10 +6,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>程式研究社</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    /* 3. 讓 html/body 沒有多餘邊距，並能全螢幕高度顯示 */
+    html, body {
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+    }
+
+    /* 4. 包裹圖片的容器，可用來置中或限制最大寬度 */
+    .img-wrapper {
+      width: 100%;            /* 滿版寬度 */
+      max-width: 1200px;      /* 若想要最大不超過 1200px，可自行調整或移除 */
+      margin: 0 auto;         /* 當寬度小於 100%，自動左右置中 */
+      padding: 20px;          /* 圖片外側留一點間距，可移除 */
+      box-sizing: border-box; /* 讓 padding 不影響總寬度 */
+    }
+
+    /* 5. 響應式圖片核心設定 */
+    .img-wrapper img {
+      display: block;       /* 去掉 img 元素下方預設的空白行 */
+      width: 100%;          /* 圖片寬度撐滿容器 */
+      height: auto;         /* 高度自動等比例縮放 */
+      max-width: 100%;      /* 保證不會超過容器寬度 */
+    }
+  </style>
 </head>
 <body>
   <header>
-    <div class="img-container">
+    <div class="img-wrapper">
       <img src="banner.png" alt="社團圖片">
     </div>
   </header>
