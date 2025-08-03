@@ -29,7 +29,8 @@ html, body {
 /* 5. 響應式圖片核心設定 */
 .img-wrapper img {
   display: block;       /* 去掉 img 元素下方預設的空白行 */
-  width: 100%;          /* 圖片寬度撐滿容器 */
+  width: 70%;          /* 圖片寬度撐滿容器 */
+  margin: 0 auto;
   height: auto; /* 裁切圖片而非變形 */         /* 高度自動等比例縮放 */
   max-width: 100%;    /* 保證不會超過容器寬度 */
 }
