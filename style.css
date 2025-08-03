@@ -11,7 +11,11 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+}
+header img {
+  width: 100%;
+  height: auto;                /* 保持等比例縮放 */
+  max-width: 1200px;           /* 可選，限制最大寬度 */
 }
 .img-container {
   width: 100%;
