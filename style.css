@@ -13,27 +13,6 @@ header {
   justify-content: center;
   align-items: center;
 }
-header img {
-  width: 100%;
-  height: auto;                /* 保持等比例縮放 */
-  max-width: 1200px;           /* 可選，限制最大寬度 */
-}
-.img-container {
-  width: 100%;
-  height: 60vh;
-  overflow: hidden;       /* 只裁切圖片 */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.img-container img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transform: scale(0.8);
-  transform-origin: center;
-}
 
 main {
   padding: 20px;
