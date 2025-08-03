@@ -34,7 +34,7 @@ html, body {
   max-width: 100%;      /* 保證不會超過容器寬度 */
 }
 main {
-  padding: 20px;
+  padding: 10px;
 }
 h1, h2, h3 {
   color: #0d47a1;
