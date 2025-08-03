@@ -34,10 +34,10 @@ html, body {
   max-width: 100%;      /* 保證不會超過容器寬度 */
 }
 header {
-  margin-bottom: 5;
+  margin-bottom: 0;
 }
 main {
-  margin-top: 5;
+  margin-top: 0;
 }
 main {
   padding: 10px;
