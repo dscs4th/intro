@@ -12,6 +12,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 0;
+  height: 300px;
 }
 html, body {
   margin: 0;
@@ -33,15 +35,12 @@ html, body {
   height: auto;         /* 高度自動等比例縮放 */
   max-width: 100%;      /* 保證不會超過容器寬度 */
 }
-header {
-  margin-bottom: 0;
-}
+
 main {
   margin-top: 0;
-}
-main {
   padding: 10px;
 }
+
 h1, h2, h3 {
   color: #0d47a1;
 }
